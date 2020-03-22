@@ -1,2 +1,2 @@
 # Alchemist
-This is a repo for start.ng assignments.
+This is a single page profile for start.ng 
