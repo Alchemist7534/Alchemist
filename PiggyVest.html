@@ -1,0 +1,107 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' width='device-width initial-scale=1.0'>
+			<style>
+				* {
+					box-sizing: border-box;
+					font-family: sans-serif;
+				}
+				body {
+					background-color: #002566;
+					font-size: 100%;
+				}
+				h1 {
+					text-align: center;
+				}
+		   form {
+		   	font-size: 2em;
+		   	margin: 0px 40px;
+		   	text-align: left;
+		   	background-color: #ffffff;
+		   	border-radius: 90px 90px 90px 0;
+		   }
+		   label {
+		   	font-weight: bold;
+		   	font-size: 1.2em;
+		   }
+		   h2 {
+		   	color: #000099;
+		   	text-align: center;
+		   	font-size: 2em;
+		   }
+		   button {
+		   	color: #ffffff;
+		   	background: #000099;
+		   	cursor: pointer;
+		   	width: 100%;
+		   	border: none;
+		   	opacity: 0.9;
+		   	margin: 0 0 90px 0;
+		   	padding: 45px 20px;
+		   	font-size: 1.5em;
+		   	border-radius: 24px 24px 24px 0;
+		   	font-weight: bold;
+		   }
+		   p, small {
+		   	text-align: center;
+		   	font-size: 1.05em;
+		   }
+		   a {
+		   	text-decoration: none;
+		   	color: #ffffff;
+		   	text-align: center;
+		   	font-size: 1.4em;
+		   	
+		   }
+		   input {
+		   	border-radius: 12px;
+		   	font-size: 1.5em;
+		   	text-align: ;
+		   	width: 100%;
+		   	padding: 45px;
+		   	margin: 5px 0 100px 0;
+		   	display: inline-block;
+		   	border: none;
+		   	background: #f1f1f1;
+		   }
+		   #container {
+		   	padding: 5px 100px;
+		   	margin: 10px;
+		   }
+			</style>
+	</head>
+	<body>
+		<h1>
+			<img src='Piggyvest.jpg' alt='piggyvest logo'>
+		</h1>
+		<form action='#' method='post' enctype='multipart/form-data'>
+			<div id='container'>
+				<br>
+			<h2>Create a Secure Account</h2><p><small>Welcome to the future of Savings & Investments</small></p>
+			<br><br>
+			<label for='name'>Full Name</label><input type='text' placeholder='Full Name'name='name'required>
+			<label for='email'>Email Address</label><br><input type='text' placeholder='Email Address'name='email'required>
+			<label for='tel'>Phone Number</label><br><input type='tel' placeholder='Phone Number' name='tel'required>
+			<label for='pswd'>Password</label><br><input type='password'placeholder='Password'name='pswd'required>
+			<label for='refferer'> Referrer Phone or Promo Code (Optional)</label><br><input type='text' placeholder='Referrer Phone or Code' name='refferer'>
+			<label>How Did You Hear About Us(Optional)</label><br><input type='text' list='publicity' placeholder='Click to Select'>
+				<datalist id='publicity'>
+				  <option value='Local Newspaper'>
+					<option value='Facebook'>
+					<option value='Twitter'>
+					<option value='Instagram'>
+					<option Value='Friend/Family/Co-Worker Refferal'>
+					<option value='Google search'>
+					<option value='Google playstore'>
+					<option value='Online Blog'>
+					<option value='At an event'>
+					<option value='Other'>
+				</datalist>
+			<button>CREATE ACCOUNT</button>
+			</div>
+		</form><br>
+		<p><small><a href='#'> Already have an Account? Login in</a></small></p>
+	</body>
+</html>
