@@ -1,0 +1,127 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> My Profile</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' width='device-width initial-scale=1.0'>
+		<style type='text/css'>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				width: 100%;
+				background: silver;
+				opacity: 1;
+			}
+			#container {
+				width: 80%;
+				height: auto;
+				margin: auto;
+				border-radius: 28px;
+				background-color: #ffffff;
+				box-shadow: 0px 10px 5px 0px silver;
+			}
+			#container img, #info p {
+				width: 100%;
+				height: auto;
+				border-radius: 28px;
+				border: 2px solid silver;
+			}
+			#info  {
+				text-align: center;
+				font-weight: bold;
+			}
+			a {
+				text-decoration: none;
+			}
+		#info	p {
+				font-size: 1.8em;
+			}
+			form {
+				font-size: 2.2em;
+			}
+			input, textarea {
+				width: 80%;
+				background: #f1f1f1;
+				border-radius: 12px;
+				font-size: 1.5em;
+				display: inline-block;
+				padding: 5px;
+				margin: 5px 0px 17px 0px;
+				border: none;
+			}
+			button {
+				width: 50%;
+				border: none;
+				font-size: 1.5em;
+				opacity: 0.9;
+				margin: 0px 0px 15px 0px;
+				background-color: purple;
+				color: #ffffff;
+				cursor: pointer;
+				border-radius: 12px;
+			}
+			label, legend {
+				font-size: 1.45em;
+			}
+			my {
+				font-size: 1.8em;
+				background-color: purple;
+				opacity: 0.8;
+				color: #ffffff;
+			}
+			#bottom img {
+				background-color: ;
+				display: inline-block;
+				width: 25%;
+				height: auto;
+				border: none;
+				border-radius: 0px;
+				padding: 0px 0px;
+				margin: 10px 60px 0px 0px;
+			}
+			#bottom {
+				background-color: purple;
+				opacity: 0.8;
+				color: white;
+				font-size: 1.9em;
+				display: inline-block;
+				border-radius: 0px 0px 28px 28px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id='container'>
+			<a href='Adekunle.jpg'><img src='./Adekunle.jpg' alt='my profile picture'></a>
+			<div id='info'>
+				<p><my>Name<br></my>Afolabi Adekunle</p>
+				<p><my>State Of Origin</my><br>Ogun State</p>
+				<p><my>Date Of Birth</my><br> 28th Of May, 1998</p>
+				<p><my>Home Address</my><br> 25,Olumide Street,Goshen Estate,Asero,Abeokuta,Ogun State,Nigeria</p>
+				<p><my>Occupation</my><br>Student</p>
+				<p><my>Hometown</my><br>Owode yewa</p>
+				<p><my>Slack id</my><br>Alchemist</p>
+				<p><my>About Me</my> <br> <b>Hobbies:</b> Reading, Writing<br>
+					<b>Interests:</b> Web Technology, Virtual Reality and Books
+				</p>
+			<form action='#' method='get' enctype='multipart/form-data'>
+				<fieldset>
+					<legend>Contact Me</legend>
+				<label for='name'>Name </label><br><input type='text' placeholder='e.g JohnDoe' id='name'><br><br>
+				<label for='email'>Email Address </label><br><input type='email' id='email' placeholder='e.g JohnD2@gmail.com'><br><br>
+				<label for='message'>Message</label><br><textarea cols='25' rows='10' placeholder='please type message'></textarea id='message'><br>
+				<button>Send Message</button>
+				</fieldset>
+			</form>
+			</div>
+			<hr>
+			<div id='bottom'>
+					<p><small>
+						<a href='https://github.com/Alchemist7534' target='_new'><img src='Github.png' alt='github logo'></a>
+						<a href='https://mobile.twitter.com/Adekunle7534' target='_new'><img src='Twitter.png' alt='twitter logo'></a>
+						<a href='#' target='_new'><img src='Facebook.png' alt='Facebook logo'></a> <br>&copy 2020, Alchemist
+					</small></p>
+			</div>
+		</div>
+	</body>
+</html>
