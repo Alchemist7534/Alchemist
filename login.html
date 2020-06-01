@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Login Form</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' width='device-width initial-scale=1.0'>
+		<style>
+			h1 {
+				font-size: 1.2em;
+				color: #001199;
+				margin: 0px;
+			}
+			div {
+				display:flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				min-height: 90vh;
+			}
+			input {
+
+				display: block;
+				margin: 7px 0px;
+				border-radius: 25px 25px 0px 25px;
+			}
+			.input:focus {
+				border: none;
+				color: #790809;
+			}
+			label {
+				font-size: 1.2em;
+			}
+			.input {
+				font-size: 1.2em;
+				height: 25px;
+				width: 350px;
+				background-color: #f1f1f1;
+				padding: 8px 0px;
+				border: none;
+			}
+			.button {
+				text-align: center;
+				padding: 5px 0px;
+				width: 350px;
+				color: white;
+				background-color: #009800;
+				border: none;
+				margin-top: 18px;
+			}
+			a {
+				color: #001199;
+				text-decoration: none;
+			}
+		</style>
+		<script>
+	/*	let name=prompt('your name please', 'John Doe');
+			alert(`Welcome ${name}`);*/
+		</script>
+	</head>
+	<body>
+	 <div>
+		<h1>Login</h1>
+		<p>Please input your details below</p>
+		<form>
+			<label for='username'>Username</label>
+			<input class='input' type='text' name='username' placeholder='  Username'>
+				<label for='pwd'>Password</label>
+			<input class='input' type='password' name='pwd' placeholder='  password'>
+			<input class='button' type='submit' name='button'>
+		</form>
+		<small><a href='#'>forgot password?</a></small>
+		</div>
+	</body>
+</html>
