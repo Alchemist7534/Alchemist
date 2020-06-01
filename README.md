@@ -1,2 +1,2 @@
 # Alchemist
-This is a repo for start.ng assignments
+This is the repo for start.ng assignments.
